@@ -15,13 +15,13 @@ const Navbar = () => {
         tabIndex="-1"
         className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
         <li>
-        <NavLink>Home</NavLink>
+        <NavLink className={({isActive})=>(isActive ? 'text-indigo-600': '')} to="/">Home</NavLink>
       </li>
       <li>
-        <NavLink to="">My-Bookings</NavLink>
+        <NavLink className={({isActive})=>(isActive ? 'text-indigo-600': '')} to="/bookings">My-Bookings</NavLink>
       </li>
-      <li><NavLink>Blogs</NavLink></li>
-      <li><NavLink>Contact Us</NavLink></li>
+      <li><NavLink className={({isActive})=>(isActive ? 'text-indigo-600': '')} to="/blogs">Blogs</NavLink></li>
+      <li><NavLink className={({isActive})=>(isActive ? 'text-indigo-600': '')} to="/contacts">Contact Us</NavLink></li>
       </ul>
     </div>
     <Link className='hidden md:flex items-center gap-1' to="/"><span><img src="/src/assets/logo.png" alt="logo" /></span> <span className='text-xl font-medium'>Phudu</span></Link>
@@ -29,13 +29,13 @@ const Navbar = () => {
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
       <li>
-        <NavLink to="/">Home</NavLink>
+        <NavLink className={({isActive})=>(isActive ? 'text-indigo-600': '')} to="/">Home</NavLink>
       </li>
       <li>
-        <NavLink to="/bookings">My-Bookings</NavLink>
+        <NavLink className={({isActive})=>(isActive ? 'text-indigo-600': '')} to="/bookings">My-Bookings</NavLink>
       </li>
-      <li><NavLink to="/blogs">Blogs</NavLink></li>
-      <li><NavLink to="/contacts">Contact Us</NavLink></li>
+      <li><NavLink className={({isActive})=>(isActive ? 'text-indigo-600': '')} to="/blogs">Blogs</NavLink></li>
+      <li><NavLink className={({isActive})=>(isActive ? 'text-indigo-600': '')} to="/contacts">Contact Us</NavLink></li>
     </ul>
   </div>
   <div className="navbar-end">
