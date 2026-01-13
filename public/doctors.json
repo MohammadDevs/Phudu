@@ -1,122 +1,146 @@
 [
   {
+    "id": 1,
     "name": "Dr. Ayesha Rahman",
-    "image": "https://i.ibb.co/doctor1.jpg",
+    "image": "../src/assets/doctor-sample.png",
     "degree": "MBBS, FCPS (Medicine)",
     "workplace": "Daffodil General Hospital, Dhaka",
     "regNo": "BMDC-45678",
     "availability": ["Sunday", "Monday", "Wednesday"],
     "consultationFee": 800,
-    "experience": 8
+    "experience": 8,
+    "isAvailable": "available"
   },
   {
+    "id": 2,
     "name": "Dr. Mahmud Hasan",
-    "image": "https://i.ibb.co/doctor2.jpg",
+    "image": "../src/assets/doctor-sample.png",
     "degree": "MBBS, MS (Orthopedic)",
     "workplace": "Square Hospital, Dhaka",
     "regNo": "BMDC-39845",
     "availability": ["Monday", "Tuesday", "Thursday"],
     "consultationFee": 1200,
-    "experience": 12
+    "experience": 12,
+    "isAvailable": "available"
   },
   {
+    "id": 3,
     "name": "Dr. Nusrat Jahan",
-    "image": "https://i.ibb.co/doctor3.jpg",
+    "image": "../src/assets/doctor-sample.png",
     "degree": "MBBS, FCPS (Gynecology)",
     "workplace": "Popular Diagnostic Center",
     "regNo": "BMDC-51234",
     "availability": ["Sunday", "Tuesday", "Thursday"],
     "consultationFee": 1000,
-    "experience": 9
+    "experience": 9,
+    "isAvailable": "not-available"
   },
   {
+    "id": 4,
     "name": "Dr. Tanvir Ahmed",
-    "image": "https://i.ibb.co/doctor4.jpg",
+    "image": "../src/assets/doctor-sample.png",
     "degree": "MBBS, MD (Cardiology)",
     "workplace": "United Hospital, Dhaka",
     "regNo": "BMDC-28901",
     "availability": ["Monday", "Wednesday", "Friday"],
     "consultationFee": 1500,
-    "experience": 14
+    "experience": 14,
+    "isAvailable": "available"
   },
   {
+    "id": 5,
     "name": "Dr. Farhana Islam",
-    "image": "https://i.ibb.co/doctor5.jpg",
+    "image": "../src/assets/doctor-sample.png",
     "degree": "MBBS, FCPS (Dermatology)",
     "workplace": "Labaid Hospital",
     "regNo": "BMDC-47590",
     "availability": ["Saturday", "Sunday", "Tuesday"],
     "consultationFee": 900,
-    "experience": 7
+    "experience": 7,
+    "isAvailable": "not-available"
   },
   {
+    "id": 6,
     "name": "Dr. Saiful Karim",
-    "image": "https://i.ibb.co/doctor6.jpg",
+    "image": "../src/assets/doctor-sample.png",
     "degree": "MBBS, MS (Neurosurgery)",
     "workplace": "Bangabandhu Sheikh Mujib Medical University",
     "regNo": "BMDC-33456",
     "availability": ["Wednesday", "Thursday"],
     "consultationFee": 2000,
-    "experience": 16
+    "experience": 16,
+    "isAvailable": "available"
   },
   {
+    "id": 7,
     "name": "Dr. Rashed Chowdhury",
-    "image": "https://i.ibb.co/doctor7.jpg",
+    "image": "../src/assets/doctor-sample.png",
     "degree": "MBBS, FCPS (Pediatrics)",
     "workplace": "Ibn Sina Hospital",
     "regNo": "BMDC-42198",
     "availability": ["Sunday", "Monday", "Thursday"],
     "consultationFee": 700,
-    "experience": 10
+    "experience": 10,
+    "isAvailable": "available"
   },
   {
+    "id": 8,
     "name": "Dr. Samina Akter",
-    "image": "https://i.ibb.co/doctor8.jpg",
+    "image": "../src/assets/doctor-sample.png",
     "degree": "MBBS, MD (Endocrinology)",
     "workplace": "Evercare Hospital, Dhaka",
     "regNo": "BMDC-56789",
     "availability": ["Monday", "Wednesday"],
     "consultationFee": 1100,
-    "experience": 11
+    "experience": 11,
+    "isAvailable": "not-available"
   },
   {
+    "id": 9,
     "name": "Dr. Imran Hossain",
-    "image": "https://i.ibb.co/doctor9.jpg",
+    "image": "../src/assets/doctor-sample.png",
     "degree": "MBBS, FCPS (ENT)",
     "workplace": "Green Life Medical College Hospital",
     "regNo": "BMDC-37821",
     "availability": ["Saturday", "Monday", "Wednesday"],
     "consultationFee": 850,
-    "experience": 6
+    "experience": 6,
+    "isAvailable": "available"
   },
   {
+    "id": 10,
     "name": "Dr. Sharmin Sultana",
-    "image": "https://i.ibb.co/doctor10.jpg",
+    "image": "../src/assets/doctor-sample.png",
     "degree": "MBBS, MS (Ophthalmology)",
     "workplace": "National Eye Hospital",
     "regNo": "BMDC-49012",
     "availability": ["Sunday", "Tuesday"],
     "consultationFee": 600,
-    "experience": 9
+    "experience": 9,
+    "isAvailable": "available"
   },
   {
+    "id": 11,
     "name": "Dr. Arifuzzaman",
-    "image": "https://i.ibb.co/doctor11.jpg",
+    "image": "../src/assets/doctor-sample.png",
     "degree": "MBBS, FCPS (Psychiatry)",
     "workplace": "Mindline Hospital, Dhaka",
     "regNo": "BMDC-65432",
     "availability": ["Thursday", "Friday"],
     "consultationFee": 1000,
-    "experience": 13
+    "experience": 13,
+    "isAvailable": "not-available"
   },
   {
+    "id": 12,
     "name": "Dr. Jannatul Ferdous",
-    "image": "https://i.ibb.co/doctor12.jpg",
+    "image": "../src/assets/doctor-sample.png",
     "degree": "MBBS, MPH",
     "workplace": "BRAC Health Center",
     "regNo": "BMDC-54321",
     "availability": ["Saturday", "Sunday", "Monday"],
     "consultationFee": 500,
-    "experience": 5
+    "experience": 5,
+    "isAvailable": "available"
   }
 ]

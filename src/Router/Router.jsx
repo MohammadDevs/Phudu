@@ -13,7 +13,10 @@ export const router = createBrowserRouter([
     Component: Root,
     errorElement: <p>Error 404</p>,
     children:[
-        {index: true, Component: Home},
+        {index: true, 
+        Component: Home,
+        loader: ()=> fetch('doctors.json')
+        },
         {
             path: "/bookings",
             Component: Bookings

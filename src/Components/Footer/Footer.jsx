@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaFacebook, FaLinkedin, FaTwitter, FaYoutube } from "react-icons/fa";
+import { NavLink } from 'react-router';
 
 const Footer = () => {
     return (
@@ -9,16 +10,16 @@ const Footer = () => {
                 <p className='text-4xl font-bold'>Phudu</p>
            </span>
            <div className='flex gap-6 mt-4 max-w-2xl border-b-2 border-red-50 px-12 pb-4'> 
-                <a href="/">Home</a>
-                <a href="/">My-Bookings</a>
-                <a href="/">Blogs</a>
-                <a href="/">Contact Us</a>
+                <NavLink className={({isActive})=>(isActive ? 'text-indigo-600' : '')} to="/">Home</NavLink>
+                <NavLink className={({isActive})=>(isActive ? 'text-indigo-600' : '')} to="/bookings">My-Bookings</NavLink>
+                <NavLink className={({isActive})=>(isActive ? 'text-indigo-600' : '')} to="/blogs">Blogs</NavLink>
+                <NavLink className={({isActive})=>(isActive ? 'text-indigo-600' : '')} to="/contacts">Contact Us</NavLink>
            </div>
            <div className='flex gap-5 justify-center mt-5'>
-                <FaFacebook color='#176AE5'/>
-                <FaTwitter color='black'/>
-                <FaLinkedin color='#176AE5'/>
-                <FaYoutube color='red'/>
+                <a href="https://www.facebook.com" target='blank' rel='noopener noreferrer'><FaFacebook color='#176AE5'/></a>
+                <a href="https://x.com/" target='blank' rel='noopener noreferrer'><FaTwitter color='black'/></a>
+                <a href="https://www.linkedin.com" target='blank' rel='noopener noreferrer'><FaLinkedin color='#176AE5'/></a>
+                <a href="https://www.youtube.com" target='blank' rel='noopener noreferrer'><FaYoutube color='red'/></a>
            </div>
         </div>
     );
