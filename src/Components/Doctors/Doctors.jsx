@@ -1,8 +1,17 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import DoctorsCard from '../Doctors Card/DoctorsCard';
+import { Link } from 'react-router';
 
 const Doctors = ({doctorsData}) => {
-console.log(doctorsData)
+const [displayDoctor,setDisplayDoctor] = useState([])
+const [showDoctors,setShowDoctors] = useState(false)
+useEffect(()=>{
+    if(showDoctors){
+        setDisplayDoctor(doctorsData)
+    }else{
+        setDisplayDoctor(doctorsData.slice(0, 6))}
+},[doctorsData, showDoctors])
+
     return (
         <div className='max-w-5xl mx-auto'>
             <div className='max-w-4xl mx-auto'>
@@ -11,9 +20,15 @@ console.log(doctorsData)
             </div>
             <div className='grid grid-cols-1 md:grid-cols-3 gap-3'>
                 {
-                    doctorsData.map(doctorData => <DoctorsCard key={doctorData.id} doctorData={doctorData}></DoctorsCard>)
+                    displayDoctor.map(doctorData => <DoctorsCard key={doctorData.id} doctorData={doctorData}></DoctorsCard>)
                 }
             </div>
+            <Link><button onClick={()=>{
+                setShowDoctors(prv=>!prv)
+                if(showDoctors) window.scrollTo({top: 0,
+                                                behavior: 'smooth',
+                                                });
+            }} className='btn bg-blue-500 text-white rounded-3xl my-5'>{showDoctors ? 'View Less' : 'View All Doctors'}</button> </Link>
         </div>
     );
 };
