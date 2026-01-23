@@ -15,10 +15,13 @@ export const router = createBrowserRouter([
     children:[
         {index: true, 
         Component: Home,
+        hydrateFallbackElement: <p>Loading...</p>,
         loader: ()=> fetch('doctors.json')
         },
         {
             path: "/bookings",
+            hydrateFallbackElement: <p>Loading...</p>,
+            loader: ()=> fetch('doctors.json'),
             Component: Bookings
         },
         {
