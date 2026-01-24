@@ -5,6 +5,7 @@ import Bookings from '../Pages/Bookings/Bookings'
 import Blogs from '../pages/Blogs/Blogs'
 import Contacts from '../pages/Contacts/Contacts'
 import Emergency from '../pages/Emergency/Emergency'
+import DoctorsDetails from '../Doctors Details/DoctorsDetails'
 
 
 export const router = createBrowserRouter([
@@ -16,12 +17,16 @@ export const router = createBrowserRouter([
         {index: true, 
         Component: Home,
         hydrateFallbackElement: <p>Loading...</p>,
-        loader: ()=> fetch('doctors.json')
+        loader: ()=> fetch('../doctors.json')
+        },
+        {
+            path: "/doctorsDetails/:id",
+            Component: DoctorsDetails,
+            hydrateFallbackElement: <p>Loading...</p>,
+            loader: ()=> fetch('../doctors.json')
         },
         {
             path: "/bookings",
-            hydrateFallbackElement: <p>Loading...</p>,
-            loader: ()=> fetch('doctors.json'),
             Component: Bookings
         },
         {

@@ -28,7 +28,7 @@ useEffect(()=>{
                 if(showDoctors) window.scrollTo({top: 0,
                                                 behavior: 'smooth',
                                                 });
-            }} className='btn bg-blue-500 text-white rounded-3xl my-5'>{showDoctors ? 'View Less' : 'View All Doctors'}</button> </Link>
+            }} className='btn bg-blue-600 hover:bg-blue-500 hover:text-white text-gray-200 rounded-3xl my-5'>{showDoctors ? 'View Less' : 'View All Doctors'}</button> </Link>
         </div>
     );
 };

@@ -1,7 +1,8 @@
 import React from 'react';
+import { Link } from 'react-router';
 
 const DoctorsCard = ({doctorData}) => {
-    const {name,regNo,image,experience,degree,isAvailable} = doctorData;
+    const {id,name,regNo,image,experience,degree,isAvailable} = doctorData;
     return (
         <div className="card bg-base-100 w-80 shadow-sm mx-auto">
   <figure className="px-4 pt-10">
@@ -24,7 +25,9 @@ const DoctorsCard = ({doctorData}) => {
     <h2 className='text-gray-500 card-title text-sm font-thin'>® Reg No: {regNo}</h2>
     </div>
     <div className="card-actions mx-auto">
-      <button className='btn btn-outline btn-info hover:text-white rounded-3xl mb-4 px-16'>View Details</button>
+      <Link to={`/doctorsDetails/${id}`}>
+          <button className='btn btn-outline btn-info hover:text-white rounded-3xl mb-4 px-16'>View Details</button>
+      </Link>
     </div>
   
 </div>
