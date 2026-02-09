@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "date": "2026-02-08",
+    "question": "What is telemedicine and how does it work?",
+    "answer": "Telemedicine is the practice of using digital platforms to consult doctors remotely. It allows patients to have video calls, chat, or share medical reports with doctors without visiting the hospital physically."
+  },
+  {
+    "id": 2,
+    "date": "2026-02-08",
+    "question": "How can I find a certified specialist online?",
+    "answer": "You can search through verified hospital websites or platforms where doctors’ credentials and specialties are listed."
+  },
+  {
+    "id": 3,
+    "date": "2026-02-07",
+    "question": "What precautions should I take when visiting a hospital during a pandemic?",
+    "answer": "Always wear a mask, maintain social distancing, sanitize your hands regularly, and follow the hospital's specific guidelines to minimize the risk of infection."
+  },
+  {
+    "id": 4,
+    "date": "2026-02-06",
+    "question": "How do hospital appointments work online?",
+    "answer": "Most hospitals provide an online booking portal where you can select a department, choose a doctor, pick a date, and pay fees online. You get an appointment confirmation instantly."
+  },
+  {
+    "id": 5,
+    "date": "2026-02-06",
+    "question": "How can I create a responsive doctor appointment website?",
+    "answer": "Use modern web technologies like React for frontend, Node.js/Express for backend, and MongoDB for database. Focus on responsive design using Tailwind CSS or Bootstrap and ensure secure data handling."
+  },
+  {
+    "id": 6,
+    "date": "2026-02-05",
+    "question": "What features should a hospital website have?",
+    "answer": "Key features include doctor profiles, online appointment booking, patient feedback, health blogs, contact information, emergency numbers, and secure login for patients."
+  },
+  {
+    "id": 7,
+    "date": "2026-02-05",
+    "question": "Can I get a prescription online?",
+    "answer": "Yes, many telemedicine platforms allow doctors to provide e-prescriptions after an online consultation, which can be printed or sent directly to pharmacies."
+  },
+  {
+    "id": 8,
+    "date": "2026-02-04",
+    "question": "What is the difference between a general hospital and a specialty hospital?",
+    "answer": "A general hospital provides a wide range of medical services, while a specialty hospital focuses on specific areas like cardiology, oncology, or pediatrics."
+  },
+  {
+    "id": 9,
+    "date": "2026-02-04",
+    "question": "How can I improve SEO for a healthcare website?",
+    "answer": "Optimize meta tags, use structured data, create quality health content, ensure fast loading speed, mobile responsiveness, and build backlinks from reputable sources."
+  },
+  {
+    "id": 10,
+    "date": "2026-02-03",
+    "question": "What is the importance of patient history during online consultation?",
+    "answer": "Patient history helps doctors understand symptoms, previous treatments, allergies, and chronic conditions, which is essential for accurate diagnosis and treatment recommendations."
+  }
+]
