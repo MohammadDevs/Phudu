@@ -46,7 +46,7 @@ export const router = createBrowserRouter([
         },
         {
             path: "/emergency",
-            Component: <Emergency></Emergency>
+            Component: Emergency
         },
         
     ]

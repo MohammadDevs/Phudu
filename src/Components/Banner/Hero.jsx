@@ -19,12 +19,12 @@ const Hero = ({handleSearch}) => {
                             />
                             <button
                             type='submit'
-                            className='btn bg-[#176AE5] text-white rounded-3xl text-sm px-4 py-5 mt-4 md:mt-0'>Search Now</button>
+                            className='btn bg-[#176AE5] text-white rounded-3xl text-sm px-4 py-5 mt-4 md:mt-0 drop-shadow-sm'>Search Now</button>
                     </form>
 {/* hero images */}
-                <div className='flex flex-col md:flex-row gap-4 justify-center mt-5'>
+                <div className='grid grid-cols-1 md:grid-cols-2 gap-4 justify-items-center mt-5'>
                     <img className='w-96' src="/src/assets/banner-img-1.png" alt="" />
-                    <img className='w-96' src="/src/assets/banner-img-1.png" alt="" />
+                    <img className='w-96 rounded-2xl' src="/src/assets/hero2.jpg" alt="" />
                 </div>
             </div>
         </div>

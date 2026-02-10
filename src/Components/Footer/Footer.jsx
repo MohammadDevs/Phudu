@@ -10,10 +10,10 @@ const Footer = () => {
                 <p className='text-4xl font-bold'>Phudu</p>
            </span>
            <div className='flex gap-6 mt-4 max-w-2xl border-b-2 border-red-50 px-12 pb-4'> 
-                <NavLink className={({isActive})=>(isActive ? 'text-indigo-600' : '')} to="/">Home</NavLink>
-                <NavLink className={({isActive})=>(isActive ? 'text-indigo-600' : '')} to="/bookings">My-Bookings</NavLink>
-                <NavLink className={({isActive})=>(isActive ? 'text-indigo-600' : '')} to="/blogs">Blogs</NavLink>
-                <NavLink className={({isActive})=>(isActive ? 'text-indigo-600' : '')} to="/contacts">Contact Us</NavLink>
+                <NavLink className={({isActive})=>(isActive ? 'underline decoration-2 underline-offset-5' : '')} to="/">Home</NavLink>
+                <NavLink className={({isActive})=>(isActive ? 'underline decoration-2 underline-offset-5' : '')} to="/bookings">My-Bookings</NavLink>
+                <NavLink className={({isActive})=>(isActive ? 'underline decoration-2 underline-offset-5' : '')} to="/blogs">Blogs</NavLink>
+                <NavLink className={({isActive})=>(isActive ? 'underline decoration-2 underline-offset-5' : '')} to="/contacts">Contact Us</NavLink>
            </div>
            <div className='flex gap-5 justify-center mt-5'>
                 <a href="https://www.facebook.com" target='blank' rel='noopener noreferrer'><FaFacebook color='#176AE5'/></a>

@@ -12,13 +12,15 @@ const Blogs = () => {
                 <p className='text-shadow-gray-600'>Some Important Question And Answer</p>
             </div>
             {
-                allData.map(data=><div key={data.id} className='bg-white p-6 m-5 rounded-2xl'>
-                    <h4 className='text-xl font-semibold'>{data.question}</h4>
-                    <p className='text-blue-600 font-thin'>Answer:</p>
-                    <p className='border-b-2 border-red-100 pb-3'>{data.answer}</p>
-                    <div className='flex gap-2 mt-4 items-center'>
-                        <BsCalendarDate />
-                        <p className='text-gray-400'>{data.date}</p>
+                allData.map(data=><div key={data.id} data={data}>
+                    <div className="collapse collapse-arrow bg-base-100 border border-base-300">
+                    <input type="radio" name="my-accordion-2" defaultChecked />
+                    <div className="collapse-title font-semibold">{data.question}</div>
+                        
+                    <div className="collapse-content text-sm">
+                        <p className='text-blue-600 font-thin'>Answer:</p>    
+                        {data.answer}
+                    </div>
                     </div>
                 </div>)
             }

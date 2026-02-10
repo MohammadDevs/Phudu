@@ -58,5 +58,126 @@
     "date": "2026-02-03",
     "question": "What is the importance of patient history during online consultation?",
     "answer": "Patient history helps doctors understand symptoms, previous treatments, allergies, and chronic conditions, which is essential for accurate diagnosis and treatment recommendations."
-  }
+  },
+  {
+  "id": 11,
+  "date": "2026-02-03",
+  "question": "Is online consultation safe for patients?",
+  "answer": "Yes, online consultation is generally safe when conducted through secure and verified platforms that protect patient data and privacy."
+},
+{
+  "id": 12,
+  "date": "2026-02-02",
+  "question": "What documents are needed for an online doctor appointment?",
+  "answer": "Usually, you need basic personal information, previous medical reports, prescriptions, and sometimes a valid ID depending on the platform."
+},
+{
+  "id": 13,
+  "date": "2026-02-02",
+  "question": "Can elderly patients use telemedicine services easily?",
+  "answer": "Yes, many platforms are designed to be user-friendly, and family members can assist elderly patients during online consultations."
+},
+{
+  "id": 14,
+  "date": "2026-02-01",
+  "question": "How do doctors verify patients during online consultations?",
+  "answer": "Doctors verify patients through registered accounts, basic personal information, and sometimes identity verification processes."
+},
+{
+  "id": 15,
+  "date": "2026-02-01",
+  "question": "What payment methods are available for online hospital services?",
+  "answer": "Most platforms accept payments via mobile banking, debit or credit cards, and sometimes cashless insurance options."
+},
+{
+  "id": 16,
+  "date": "2026-01-31",
+  "question": "Can I reschedule or cancel an online appointment?",
+  "answer": "Yes, most online appointment systems allow rescheduling or cancellation within a specified time frame."
+},
+{
+  "id": 17,
+  "date": "2026-01-31",
+  "question": "How long does an online consultation usually last?",
+  "answer": "An online consultation typically lasts between 10 to 30 minutes depending on the doctor and the complexity of the issue."
+},
+{
+  "id": 18,
+  "date": "2026-01-30",
+  "question": "Are online prescriptions legally valid?",
+  "answer": "Yes, e-prescriptions provided by licensed doctors are legally valid in many countries, subject to local healthcare regulations."
+},
+{
+  "id": 19,
+  "date": "2026-01-30",
+  "question": "What should I do if I face technical issues during consultation?",
+  "answer": "You should contact the platform’s support team or try reconnecting using a stable internet connection."
+},
+{
+  "id": 20,
+  "date": "2026-01-29",
+  "question": "Can online doctors diagnose serious conditions?",
+  "answer": "Online doctors can provide initial assessments and guidance, but serious conditions may require physical examination or hospital visits."
+},
+{
+  "id": 21,
+  "date": "2026-01-29",
+  "question": "How is patient data protected on healthcare websites?",
+  "answer": "Patient data is protected using encryption, secure servers, and strict access controls following healthcare data regulations."
+},
+{
+  "id": 22,
+  "date": "2026-01-28",
+  "question": "Do online hospitals provide follow-up consultations?",
+  "answer": "Yes, many platforms offer follow-up consultations to monitor patient progress and adjust treatment if needed."
+},
+{
+  "id": 23,
+  "date": "2026-01-28",
+  "question": "Can I consult multiple doctors online for the same issue?",
+  "answer": "Yes, patients can seek second opinions by consulting multiple doctors through online platforms."
+},
+{
+  "id": 24,
+  "date": "2026-01-27",
+  "question": "What internet speed is required for video consultation?",
+  "answer": "A stable internet connection with at least moderate speed is recommended for smooth video consultations."
+},
+{
+  "id": 25,
+  "date": "2026-01-27",
+  "question": "Are online healthcare platforms available 24/7?",
+  "answer": "Some platforms offer 24/7 services, while others operate based on doctors’ availability schedules."
+},
+{
+  "id": 26,
+  "date": "2026-01-26",
+  "question": "Can online consultations be used for mental health support?",
+  "answer": "Yes, telemedicine is widely used for mental health counseling and psychiatric consultations."
+},
+{
+  "id": 27,
+  "date": "2026-01-26",
+  "question": "How do I choose the right doctor online?",
+  "answer": "You can choose a doctor by reviewing their qualifications, experience, patient reviews, and area of specialization."
+},
+{
+  "id": 28,
+  "date": "2026-01-25",
+  "question": "What happens if a doctor is unavailable after booking?",
+  "answer": "In such cases, the platform usually offers rescheduling, doctor replacement, or a refund option."
+},
+{
+  "id": 29,
+  "date": "2026-01-25",
+  "question": "Can online platforms store my medical history securely?",
+  "answer": "Yes, most healthcare platforms securely store medical history to assist doctors in future consultations."
+},
+{
+  "id": 30,
+  "date": "2026-01-24",
+  "question": "Is telemedicine suitable for emergency situations?",
+  "answer": "Telemedicine is not ideal for emergencies. In critical situations, patients should visit the nearest emergency department immediately."
+}
+
 ]
