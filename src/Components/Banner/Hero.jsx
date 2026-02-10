@@ -23,8 +23,8 @@ const Hero = ({handleSearch}) => {
                     </form>
 {/* hero images */}
                 <div className='grid grid-cols-1 md:grid-cols-2 gap-4 justify-items-center mt-5'>
-                    <img className='w-96' src="/src/assets/banner-img-1.png" alt="" />
-                    <img className='w-96 rounded-2xl' src="/src/assets/hero2.jpg" alt="" />
+                    <img className='w-96' src="https://i.ibb.co.com/Vk1z975/banner-img-1.png" alt="" />
+                    <img className='w-96 rounded-2xl' src="https://i.ibb.co.com/x8hyP1v5/hero2.jpg" alt="" />
                 </div>
             </div>
         </div>

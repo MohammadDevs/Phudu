@@ -24,7 +24,7 @@ const Navbar = () => {
       <li><NavLink className={({isActive})=>(isActive ? 'underline decoration-2 underline-offset-5': '')} to="/contacts">Contact Us</NavLink></li>
       </ul>
     </div>
-    <Link className='hidden md:flex items-center gap-1' to="/"><span><img src="/src/assets/logo.png" alt="logo" /></span> <span className='text-xl font-medium'>Phudu</span></Link>
+    <Link className='hidden md:flex items-center gap-1' to="/"><span><img src="https://i.ibb.co.com/JRH9gVcb/logo.png" alt="logo" /></span> <span className='text-xl font-medium'>Phudu</span></Link>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
@@ -39,7 +39,7 @@ const Navbar = () => {
     </ul>
   </div>
   <div className="navbar-end">
-    <Link to="/emergency"><a className="btn bg-[#176AE5] text-[#fffffff8] rounded-3xl hover:bg-[#3686ff]">Emergency</a></Link>
+    <Link to="/emergency" className="btn bg-[#176AE5] text-[#fffffff8] rounded-3xl hover:bg-[#3686ff]">Emergency</Link>
   </div>
 </div>
     );
